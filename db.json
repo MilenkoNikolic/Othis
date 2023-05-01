@@ -1,0 +1,103 @@
+{
+  "customers": [
+    {
+      "id": "1001",
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "phone": "+1-202-555-0167",
+      "address": {
+        "street": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "id": "1002",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "phone": "+1-202-555-0182",
+      "address": {
+        "street": "456 Elm Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "id": "1003",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "phone": "+1-202-555-0152",
+      "address": {
+        "street": "789 Oak Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "id": "1004",
+      "name": "Alice Williams",
+      "email": "alice.williams@example.com",
+      "phone": "+1-202-555-0134",
+      "address": {
+        "street": "321 Pine Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN1001",
+      "customer_id": "1001",
+      "amount": 100.0,
+      "subject": "Paycheck",
+      "description": "Salary payment for the month of January",
+      "datetime": 1680731057000
+    },
+    {
+      "id": "TXN1002",
+      "customer_id": "1001",
+      "amount": -50.0,
+      "subject": "Utilities",
+      "description": "Electricity bill payment for the month of January",
+      "datetime": 1680385457000
+    },
+    {
+      "id": "TXN1003",
+      "customer_id": "1002",
+      "amount": 200.0,
+      "subject": "Deposit",
+      "description": "Deposit to savings account",
+      "datetime": 1680731057000
+    },
+    {
+      "id": "TXN1004",
+      "customer_id": "1003",
+      "amount": -75.0,
+      "subject": "Rent",
+      "description": "Monthly rent payment",
+      "datetime": 1680731057000
+
+    },
+    {
+      "id": "TXN1005",
+      "customer_id": "1004",
+      "amount": 150.0,
+      "subject": "Transfer",
+      "description": "Transfer to checking account",
+      "datetime": 1680731057000
+    },
+    {
+      "id": "TXN1006",
+      "customer_id": "1004",
+      "amount": -25.0,
+      "subject": "Groceries",
+      "description": "Grocery shopping at Walmart",
+      "datetime": 1680385457000
+    }
+  ]
+}
